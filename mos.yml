@@ -1,0 +1,22 @@
+type: lib
+description: U8g2_Arduino Monochrome Graphics Library to mongoose
+version: 1.0
+
+sources:
+  - src
+  - src/clib
+includes:
+  - src
+  - src/clib
+filesystem:
+  - fs
+config_schema:
+libs:
+  - origin: https://github.com/mongoose-os-libs/arduino-compat
+  - origin: https://github.com/mongoose-os-libs/arduino-spi
+  - origin: https://github.com/mongoose-os-libs/arduino-wire
+
+tags:
+  - c
+
+manifest_version: 2017-09-29
